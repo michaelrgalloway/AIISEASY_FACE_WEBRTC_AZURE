@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "declaration": false,
+      "module": "es2015",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "allowJs": true,
+      "experimentalDecorators":true,
+      "emitDecoratorMetadata": true,
+      "importHelpers": true,
+      "target": "es5",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "lib": [
+        "es2018",
+        "dom"
+      ]
+    }
+  }
